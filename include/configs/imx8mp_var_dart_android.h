@@ -26,7 +26,7 @@
 	"cmaargs=" \
 		"if test $sdram_size -le 2048; then " \
 			"setenv cmavar 320M@0x400M-0xb80M; " \
-			"setenv galcore_var 'galcore.contiguousSize=134217728'; " \
+			"setenv galcore_var 'galcore.contiguousSize=33554432'; " \
 		"else " \
 			"setenv cmavar 960M@0x400M-0x1000M; " \
 		"fi; " \
